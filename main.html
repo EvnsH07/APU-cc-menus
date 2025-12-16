@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            FryCha Counter
+        </title>
+        <meta charset="UTF-8">
+        <meta class="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+
+        <!-- LEFT -->
+        <section class="left">
+            <h1 class="main-title">FRY<span class="cross">CHA</span><span class="change">CAFE</span></h1>
+            <div class="menu">
+                <h1 class="title">MENUS</h1>
+                <h2>FRIES<span class="price">(RM 6)</span></h2>
+                <h2>MILO LATTE<span class="price">(RM 4.5)</span></h2>
+                <h2>MILO ICE<span class="price">(RM 3)</span></h2>
+                <h2>COFFEE<span class="price">(RM ?)</span></h2>
+                <h2>COFFEE C<span class="price">(RM ?)</span></h2>
+                <h2>MALAYSIA MOCHA<span class="price">(RM ?)</span></h2>
+            </div>
+            <div style="display: none;">
+                <h1 class="title">ITEMS SOLD</h1>
+                <div class="sold">
+                    <div>
+                        <h2>MATCHA</h2>
+                        <div class="counter" id="matcha"></div>
+                    </div>
+                    <div>
+                        <h2>FRIES</h2>
+                        <div class="counter" id="fries"></div>
+                    </div>
+                    <div>
+                        <h2>MILO</h2>
+                        <div class="counter" id="milo"></div>
+                    </div>
+                    <div>
+                        <h2>MILO/FRIES</h2>
+                        <div class="counter" id="milo-fries"></div>
+                    </div>
+                    <div>
+                        <h2>MATCHA/FRIES</h2>
+                        <div class="counter" id="matcha-fries"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="income">
+                <h1 class="title">INCOME</h1>
+                <div class="income-display" style="font-size: 1.5rem;"></div>
+            </div>
+        </section>
+
+        <!-- RIGHT -->
+        <section class="right">
+            <div class="products">
+                <h1 class="title" style="margin-bottom: 0;">PRODUCTS</h1>
+                <button class="qr-btn" style="display: none;">QR</button>
+                <div class="image-carousel" id="products-carousel"></div>
+                <img class="carousel-image" id="qr" src="./images/qr.jpg" style="display: none; margin: 1rem auto 0 auto"/>
+            </div>
+        </section>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

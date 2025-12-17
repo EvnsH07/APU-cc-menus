@@ -215,9 +215,9 @@ section.right {
     }
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1700px) {
     .carousel-image {
-        max-width: 225px;
-        max-height: 225px;
+        max-width: 250px;
+        max-height: 250px;
     }
 }
